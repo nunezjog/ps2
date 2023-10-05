@@ -7,11 +7,11 @@ rm(list = ls()
 library(HMDHFDplus)
 
 #Female 2004
-lt=readHMDweb("USA", "fltper_5x1", username = "jgnunez@wisc.edu", password = "CxLveTH45!")
+lt=readHMDweb("USA", "fltper_5x1", username = "jgnunez@wisc.edu", password = "pswd")
 flt2004<-subset(lt,Year==2004)
 
 #Male 2004
-lt2=readHMDweb("USA", "mltper_5x1", username = "jgnunez@wisc.edu", password = "CxLveTH45!")
+lt2=readHMDweb("USA", "mltper_5x1", username = "jgnunez@wisc.edu", password = "pswd")
 mlt2004<-subset(lt2,Year==2004)
 
 #Poverty Data
